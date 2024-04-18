@@ -1,0 +1,149 @@
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.layout-game{
+  width: 470px;
+  height: 620px;
+  border: solid 5px black;
+  border-radius: 5% 5% 17% 5%;
+}
+
+.layout-margingame{
+  width: 400px;
+  height: 340px;
+  border: solid 5px black;
+  background-color: #837D8E;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5% 5% 17% 5%;
+  margin: 5% 7% ;
+}
+
+.screen-layout{
+  width: 350px;
+  height: 275px;
+  border: solid 5px black;
+  background-color: white;
+  border-radius: 5%;
+  margin-top: 2%;
+}
+
+.container-screen{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2%;
+}
+
+.buttons-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0 4% 0 2%;
+  height: 262px;
+}
+
+.container-pad{
+  width: 100px;
+  height: 100px;
+  padding-bottom: 20%;
+}
+
+.container-select{
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  margin: 25% 0 7%;
+}
+
+.container-action{
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content:space-around;
+  padding-bottom: 15%;
+}
+
+.button-b-container{
+  padding-top: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button-a-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button-a{
+  width: 40px;
+  height: 40px;
+  background-color: #74041E;
+  border-radius: 100%;
+}
+
+.button-b{
+  width: 40px;
+  height: 40px;
+  background-color: #74041E;
+  border-radius: 100%;
+
+}
+
+.button-select{
+  width: 60px;
+  height: 30px;
+  background-color: #837D8E;
+  border-radius: 100%;
+}
+
+.button-start{
+  width: 60px;
+  height: 30px;
+  background-color: #837D8E;
+  border-radius: 100%; 
+}
+
+.container-pad {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-up-down {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.btn-up {
+  width: 25px;
+  height: 40px;
+  background-color: #020204;
+}
+
+.btn-down {
+  width: 25px;
+  height: 40px;
+  background-color: #020204;
+}
+
+.btn-right {
+  width: 25px;
+  height: 32px;
+  background-color: #020204;
+}
+
+.btn-left {
+  width: 25px;
+  height: 32px;
+  background-color: #020204;
+}
